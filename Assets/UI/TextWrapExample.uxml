@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="align-items: center; flex-grow: 1; background-color: rgba(0, 0, 0, 255);">
+        <ui:Label text="A long string that will wrap to the next line" display-tooltip-when-elided="true" style="font-size: 20px; white-space: normal; -unity-text-align: upper-center; color: rgba(255, 255, 255, 255);" />
+        <ui:Label text="Sibling that is covered" display-tooltip-when-elided="true" style="color: rgba(255, 255, 255, 255);" />
+    </ui:VisualElement>
+</ui:UXML>
